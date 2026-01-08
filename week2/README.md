@@ -1,8 +1,8 @@
-# 📘 Week 2: Quantum Algorithms and Variational Methods
+# 📘 Week 2: Quantum Algorithms 
 
 ## Overview
 
-In Week 2, the focus was on implementing standard quantum algorithms and exploring variational quantum algorithms using **Qiskit**. The objective was to gain hands-on familiarity with quantum circuit construction, algorithmic structure, and simulation-based evaluation on ideal backends.
+In Week 2, the focus was on implementing standard quantum algorithms using **Qiskit**. The objective was to gain hands-on familiarity with quantum circuit construction, algorithmic structure, and simulation-based evaluation on ideal backends.
 
 Due to time and external constraints, not all planned components were completed in full depth. However, the core ideas and implementations were explored sufficiently to build a strong foundational understanding.
 
@@ -10,7 +10,7 @@ Due to time and external constraints, not all planned components were completed 
 
 ## Topics Covered
 
-### 1. Quantum Algorithms
+### Quantum Algorithms
 
 The following quantum algorithms were implemented and tested using Qiskit simulators:
 
@@ -26,22 +26,6 @@ For each algorithm:
 - Measurement outcomes were analyzed to verify expected behavior  
 
 These implementations helped bridge the gap between abstract algorithmic descriptions and concrete circuit-level realizations.
-
----
-
-### 2. Variational Quantum Eigensolver (VQE)
-
-An introductory implementation of the **Variational Quantum Eigensolver (VQE)** was carried out, including:
-
-- Construction of a parameterized ansatz  
-- Evaluation of expectation values  
-- Use of classical optimizers  
-- Execution on ideal simulators  
-
-This exercise provided insight into:
-- the hybrid quantum–classical workflow  
-- parameter optimization strategies  
-- sensitivity of VQE to ansatz choice and circuit depth  
 
 ---
 
